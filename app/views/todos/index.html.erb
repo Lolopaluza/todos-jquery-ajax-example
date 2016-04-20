@@ -1,8 +1,7 @@
 <h1>TodoList</h1>
+<center id="notice"><%= notice %></center>
 
-<form>
-  <input type="text" id="new-todo" placeholder="What needs to be done?">
-</form>
+<%= render "form" %>
 
 <ul id="todolist">
   <%= render @todos %>
